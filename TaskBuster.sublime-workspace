@@ -1,0 +1,478 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_",
+				"_create_user"
+			],
+			[
+				"user",
+				"userTest"
+			],
+			[
+				"add",
+				"add_result"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"se",
+				"search_list"
+			],
+			[
+				"singl",
+				"singleton_bases"
+			],
+			[
+				"is",
+				"isinstance"
+			],
+			[
+				"Singl",
+				"SingletonMeta"
+			],
+			[
+				"foo",
+				"FooMixin"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"a",
+				"assertEqual"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"archive",
+				"archive_private"
+			],
+			[
+				"Eu",
+				"EuTenho"
+			],
+			[
+				"EuU",
+				"EuUso2"
+			],
+			[
+				"EuTenh",
+				"EuTenho3"
+			],
+			[
+				"EuUs",
+				"EuUso"
+			],
+			[
+				"EuTe",
+				"EuTenho3"
+			],
+			[
+				"EuTen",
+				"EuTenho3"
+			],
+			[
+				"EuUso",
+				"EuUso2"
+			],
+			[
+				"Ad",
+				"Adaptador"
+			],
+			[
+				"EUt",
+				"EuTenho3"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/caiquedepaulapereira/Documents/wikilegis/wikilegis/auth2/models.py",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/BlogDAS/templates/registration/user_detail.html",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/blog/urls.py",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/blog/models.py",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/BlogDAS/urls.py",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/blog/templates/blog/post_detail.html",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/blog/views.py",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/blog/admin.py",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/settings.py",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/blog/__init__.py",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/blog/app.py",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/blog/signals.py",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/blog/templates/blog/post_list.html",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/blog/templates/blog/base.html",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/blog/templates/registration/login.html",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/blog/templates/blog/post_edit.html",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/BlogDAS/wsgi.py",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/.gitignore",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/templates/blog/post_list.html",
+		"/Users/caiquedepaulapereira/Documents/projetoDAS/BlogDAS/BlogDAS/settings.py",
+		"/Users/caiquedepaulapereira/Documents/pi2/BrakeControlWorkbench/app/templates/partials/_graph1.html",
+		"/Users/caiquedepaulapereira/Documents/pi2/BrakeControlWorkbench/app/views.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin/src/colab_superarchives/views.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin/src/colab_superarchives/models.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/accounts/utils/email.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin/colab-1.13.5-py2.7.egg/colab/super_archives/views.py",
+		"/Users/caiquedepaulapereira/Documents/wikilegis-gcs/scripts/provision.sh",
+		"/Users/caiquedepaulapereira/Documents/pi2/BrakeControlWorkbench/app/tests/modelsTests.py",
+		"/Users/caiquedepaulapereira/Documents/pi2/BrakeControlWorkbench/app/models.py",
+		"/Users/caiquedepaulapereira/Documents/pi2/BrakeControlWorkbench/app/__init__.py",
+		"/Users/caiquedepaulapereira/Documents/wikilegis/venv/bin/painter.py",
+		"/Users/caiquedepaulapereira/Documents/wikilegis/venv/bin/explode.py",
+		"/Users/caiquedepaulapereira/Documents/wikilegis/venv/bin/pilconvert.py",
+		"/Users/caiquedepaulapereira/Documents/wikilegis/README.md",
+		"/Users/caiquedepaulapereira/Documents/wikilegis/venv/bin/pilprint.py",
+		"/Users/caiquedepaulapereira/Documents/wikilegis/venv/bin/viewer.py",
+		"/Users/caiquedepaulapereira/Documents/wikilegis/venv/lib/python2.7/site-packages/PIL/ImageGrab.py",
+		"/Users/caiquedepaulapereira/Documents/wikilegis/venv/lib/python2.7/site-packages/social/tests/models.py",
+		"/Users/caiquedepaulapereira/Documents/wikilegis/.travis.yml",
+		"/Users/caiquedepaulapereira/Documents/wikilegis/wikilegis/auth2/views.py",
+		"/Users/caiquedepaulapereira/Documents/wikilegis/wikilegis/auth2/forms.py",
+		"/Users/caiquedepaulapereira/Documents/wikilegis/wikilegis/auth2/__init__.py",
+		"/Users/caiquedepaulapereira/Documents/wikilegis/wikilegis/auth2/tests.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/MANIFEST.in",
+		"/Users/caiquedepaulapereira/Dropbox/UnB/11o semestre/DAS/Aulas com Fabio/testCalculadora.py",
+		"/Users/caiquedepaulapereira/Documents/pi2/BrakeControlWorkbench/app/tests/__init__.py",
+		"/Users/caiquedepaulapereira/Documents/pi2/BrakeControlWorkbench/app/parse/arduinoParse.py",
+		"/Users/caiquedepaulapereira/Documents/pi2/BrakeControlWorkbench/app/user.py",
+		"/Users/caiquedepaulapereira/Documents/pi2/BrakeControlWorkbench/app/mockdbhelper.py",
+		"/Users/caiquedepaulapereira/Documents/pi2/BrakeControlWorkbench/app/brakeControlMain.py",
+		"/Users/caiquedepaulapereira/Documents/pi2/BrakeControlWorkbench/app/templates/index.html",
+		"/Users/caiquedepaulapereira/Documents/pi2/BrakeControlWorkbench/app/templates/home.html",
+		"/Users/caiquedepaulapereira/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin/src/colab_superarchives/urls.py",
+		"/Users/caiquedepaulapereira/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/celery.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/__init__.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin/colab-1.13.5-py2.7.egg/colab/urls.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/urls.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/plugins/views.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/plugins/urls.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab_taiga_plugin/src/colab_taiga/views.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/Vagrantfile",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/plugins/__init__.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin/django_revproxy-0.9.10-py2.7.egg/EGG-INFO/SOURCES.txt",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin/celery-3.1.23-py2.7.egg/celery/app/__init__.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/setup.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin/django_revproxy-0.9.10-py2.7.egg/revproxy/views.py",
+		"/Users/caiquedepaulapereira/Documents/BrakeControlWorkbench/templates/home.html",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin/tests/test_mailinglist_view.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin/tests/test_privatelist.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/accounts/fixtures/test_user.json",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin/src/colab_superarchives/fixtures/test_user.json",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/accounts/tests/test_user.py",
+		"/Users/caiquedepaulapereira/Documents/newcolab/plugins/colab_taiga_plugin/src/colab_taiga/templates/proxy/colab.html",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab_taiga_plugin/src/colab_taiga/urls.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab_taiga_plugin/src/colab_taiga/apps.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab_taiga_plugin/tests/plugins.d/taiga.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab_taiga_plugin/src/colab_taiga_plugin/apps.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab_taiga_plugin/src/colab_taiga_plugin/__init__.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab_taiga_plugin/src/colab_taiga_plugin/data_importer.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab_taiga_plugin/src/colab_taiga_plugin/views.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab_taiga_plugin/src/colab_taiga_plugin/urls.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab_taiga_plugin/src/colab_taiga/__init__.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab_taiga_plugin/tests/colab_settings.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab_taiga_plugin/tests/runtests.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab_taiga_plugin/tests/test_plugin.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/accounts/templates/accounts/user_update_form.html",
+		"/Users/caiquedepaulapereira/Documents/pi2/models.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/colab.sqlite3",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/locale/pt_BR/LC_MESSAGES/django.po",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin-master/src/colab_superarchives/urls.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin-master/src/colab_superarchives/views.py",
+		"/Users/caiquedepaulapereira/Documents/wikilegis/wikilegis/tests/test_user.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/accounts/urls.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/wsgi.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/accounts/signals.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/accounts/templates/accounts/user_create_form.html",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/accounts/forms.py",
+		"/Users/caiquedepaulapereira/Dropbox/UnB/11o semestre/DAS/Facade Pattern/EstatisticaFacade.py",
+		"/Users/caiquedepaulapereira/Dropbox/UnB/11o semestre/DAS/Facade Pattern/Facade Pattern/EstatisticaFacade.py",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin/src/colab_superarchives/templates/superarchives/emails/email_verification.txt",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin/src/colab_superarchives/locale/pt_BR/LC_MESSAGES/django.po",
+		"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin/src/colab_superarchives/locale/en/LC_MESSAGES/django.po",
+		"/Users/caiquedepaulapereira/Documents/NewColab/colab/colab/accounts/templates/accounts/emails/email_verification.txt",
+		"/Users/caiquedepaulapereira/Documents/calculator/src/calculator.cpp",
+		"/Users/caiquedepaulapereira/Documents/colab/colab/super_archives/models.py",
+		"/Users/caiquedepaulapereira/Documents/colab/features/steps/user_steps.py",
+		"/Users/caiquedepaulapereira/Documents/colab/features/profile_edition.feature",
+		"/Users/caiquedepaulapereira/Documents/colab/features/home_redirect.feature",
+		"/Users/caiquedepaulapereira/Documents/GifterProject/GifterProject/GifterProject.xcodeproj/project.pbxproj",
+		"/Users/caiquedepaulapereira/Documents/searchProdutctId",
+		"/Users/caiquedepaulapereira/Dropbox/Projeto Presente/SUCCESS.json",
+		"/Users/caiquedepaulapereira/Dropbox/BEPID/Tarefas Moodle/ControllingSource/swift.gitignore",
+		"/Users/caiquedepaulapereira/Documents/MiniChallenge2/MiniFarma/MiniFarma.xcodeproj/project.pbxproj"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/caiquedepaulapereira/Documents/NewColab",
+			"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin",
+			"/Users/caiquedepaulapereira/Downloads/flask-bookshelf-master",
+			"/Users/caiquedepaulapereira/Documents/wikilegis",
+			"/Users/caiquedepaulapereira/Documents/pi2/BrakeControlWorkbench",
+			"/Users/caiquedepaulapereira/Documents/NewColab",
+			"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab_taiga_plugin",
+			"/Users/caiquedepaulapereira/Documents/NewColab",
+			"/Users/caiquedepaulapereira/Documents/NewColab/colab",
+			"/Users/caiquedepaulapereira/Documents/NewColab/plugins/colab-superarchives-plugin/tests",
+			"/Users/caiquedepaulapereira/Documents/NewColab/colab",
+			"/Users/caiquedepaulapereira/Documents/NewColab",
+			"/Users/caiquedepaulapereira/Documents/Colab nova versão/colab"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"one",
+			"redire",
+			"etc/",
+			"lib",
+			"ThreadView",
+			"create_user",
+			"mail",
+			"mails",
+			"user",
+			"values_list",
+			"get_object_or_404",
+			"ThreadView",
+			"test",
+			"valueE",
+			"forma",
+			"image",
+			"Image.open(",
+			"open",
+			"sys.argv",
+			"infile",
+			"from PIL import Image\n",
+			"filepa",
+			"Image.open(",
+			"infile",
+			"image",
+			"set_password",
+			"set_pass",
+			"email",
+			"post",
+			"user",
+			"login_user",
+			"logout_user",
+			"btn btn-success",
+			"login",
+			"logout",
+			"request",
+			"name='myaccount'",
+			"myaccount/(?P<route>.*)$ [name='myaccount']",
+			"templates.js ",
+			"theme-taiga.css ",
+			"v-1461931321319",
+			"v-1461931321319/js/app-loader.js ",
+			"proxy",
+			"8000",
+			"nginx",
+			"ngi",
+			"nginx",
+			"netwo",
+			"colab_taiga",
+			"ColabTaigaPluginPluginTest",
+			"taiga",
+			"colab_taiga_plugin",
+			"Manage",
+			"get_user_mailinglists",
+			"Mailman",
+			"@patch",
+			"user_list_subscriptions",
+			"DetailView",
+			"UserProfileBaseMixin",
+			"thread_list",
+			"get_user_mailinglists",
+			"get_context_data",
+			"goto_defi",
+			"messages.error",
+			"mail",
+			"address",
+			"fields",
+			"mail",
+			"Endereço de email",
+			"Informe um endere",
+			"Informe um endereço de email válido.",
+			"mail",
+			"^@]",
+			"^@]+@[^@]+\\.[^@]+",
+			"indeed",
+			"manifests",
+			"sync",
+			"email",
+			"emails",
+			"email",
+			"emails",
+			"email",
+			"emails",
+			"get_user_mailinglists",
+			"behav",
+			"beha",
+			"behave",
+			"Bepid",
+			"head",
+			"pricemin",
+			"category",
+			"mine",
+			"<<<<<<<",
+			"<<<<<<< .mine"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"requi",
+				"colab/mailman-api/requirements.txt"
+			],
+			[
+				"test_user",
+				"plugins/colab-superarchives-plugin/src/colab_superarchives/fixtures/test_user.json"
+			],
+			[
+				"mailinglistviewdata",
+				"plugins/colab-superarchives-plugin/src/colab_superarchives/fixtures/mailinglistviewdata.json"
+			],
+			[
+				"vie",
+				"plugins/colab-superarchives-plugin/src/colab_superarchives/views.py"
+			],
+			[
+				"ur",
+				"plugins/colab-superarchives-plugin/src/colab_superarchives/urls.py"
+			],
+			[
+				"django.po",
+				"colab/colab/locale/pt_BR/LC_MESSAGES/django.po"
+			],
+			[
+				"manage",
+				"colab/colab/accounts/templates/accounts/manage_subscriptions.html"
+			],
+			[
+				"",
+				"{"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true
+}
