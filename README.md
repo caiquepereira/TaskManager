@@ -1,11 +1,12 @@
 # TaskManager
+Task Manager project in Python using Django Framework.
+
+# Author
 Universidade de Brasília
 
-Advanced Software Development | Desenvolvimento Avançado de Software
+Advanced Software Development (Desenvolvimento Avançado de Software)
 
-* Caíque de Paula Pereira
-
-Task Manager project in Python using Django Framework.
+Student: Caíque de Paula Pereira
 
 # Running the development server
 
