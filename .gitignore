@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+db.sqlite3
+TaskBuster.sublime-workspace
 
 # C extensions
 *.so
