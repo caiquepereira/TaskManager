@@ -1,6 +1,8 @@
 # TaskManager
-Advanced Software Development | Desenvolvimento Avançado de Software
 Universidade de Brasília
+
+Advanced Software Development | Desenvolvimento Avançado de Software
+
 * Caíque de Paula Pereira
 
 Task Manager project in Python using Django Framework.
@@ -8,11 +10,17 @@ Task Manager project in Python using Django Framework.
 # Running the development server
 
 ```bash
-$ python taskbuster/manage.py runserver
+$ taskbuster/manage.py runserver
 ```
 
-# Running the tests
+# Running the functional tests
 
 ```bash
-$ python taskbuster/manage.py test
+$ taskbuster/manage.py test functional_tests
+```
+
+# Running the unittests
+
+```bash
+$ taskbuster/manage.py test taskbuster.test
 ```
