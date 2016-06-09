@@ -24,3 +24,10 @@ $ taskbuster/manage.py test functional_tests
 ```bash
 $ taskbuster/manage.py test taskbuster.test
 ```
+
+# Checking coverage
+
+```bash
+$ coverage run --source='.' taskbuster/manage.py test
+$ coverage report
+```
