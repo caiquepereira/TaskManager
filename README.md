@@ -1,7 +1,6 @@
 # TaskManager
 
 [![Build Status](https://travis-ci.org/caiquepereira/TaskManager.svg?branch=master)](https://travis-ci.org/caiquepereira/TaskManager)
-
 [![Coverage Status](https://coveralls.io/repos/github/caiquepereira/TaskManager/badge.svg?branch=master)](https://coveralls.io/github/caiquepereira/TaskManager?branch=master)
 
 Task Manager project in Python using Django Framework.
