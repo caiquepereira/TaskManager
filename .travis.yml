@@ -8,6 +8,8 @@ env:
 install:
   - pip install -r requirements/testing.txt
   - pip install coveralls
+  - apt-get install xvfb
+  - pip install pyvirtualdisplay
 
 script:
   - python taskbuster/manage.py makemigrations
