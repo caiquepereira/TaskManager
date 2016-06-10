@@ -1,6 +1,8 @@
 # TaskManager
 Task Manager project in Python using Django Framework.
 
+[![Build Status](https://travis-ci.org/caiquepereira/TaskManager.svg?branch=master)](https://travis-ci.org/caiquepereira/TaskManager)
+
 # Author
 Universidade de Brasília
 

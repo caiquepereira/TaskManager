@@ -12,7 +12,7 @@ install:
 script:
   - python taskbuster/manage.py makemigrations
   - python taskbuster/manage.py migrate
-  - coverage run taskbuster/manage.py test / -v 2
+  - coverage run --source='.' taskbuster/manage.py test -v 2
 
 after_success:
   - coveralls
