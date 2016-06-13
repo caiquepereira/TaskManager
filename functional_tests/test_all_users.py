@@ -33,3 +33,11 @@ class HomeNewVisitorTest(StaticLiveServerTestCase):
         self.assertNotIn("Not Found", self.browser.title)
         self.browser.get(self.live_server_url + "/humans.txt")
         self.assertNotIn("Not Found", self.browser.title)
+
+    def test_internationalization(self):
+        # for lang, h1_text in [('en', 'Welcome to TaskBuster!'),
+                            # ('pt', 'Bem vindo ao TaskBuster!')]:
+            activate('pt')
+            self.browser.get(self.get_full_url("home"))
+            h1 = self.browser.find_element_by_tag_name("h1")
+            self.assertEqual(h1.text, 'Bem vindo ao TaskBuster!')

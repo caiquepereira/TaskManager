@@ -16,10 +16,11 @@ import os
 from django.utils.translation import ugettext_lazy as _
 LANGUAGES = (
     ('en', _('English')),
-    ('pt-br', _('Português')),
+    ('pt', _('Portugues')),
 )
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print(BASE_DIR)
 
 
 # Quick-start development settings - unsuitable for production
