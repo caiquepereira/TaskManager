@@ -13,8 +13,6 @@ install:
   - pip install coveralls
   - pip install pyvirtualdisplay
   - pip install django-allauth
-  - mysql -u root -p
-  - 15751575
 
 before_script:
   - "export DISPLAY=:99.0"
@@ -30,3 +28,6 @@ script:
 
 after_success:
   - coveralls
+
+services:
+  - mysql
