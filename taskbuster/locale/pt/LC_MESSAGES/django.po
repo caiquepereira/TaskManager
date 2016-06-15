@@ -30,14 +30,15 @@ msgstr ""
 msgid "Welcome to TaskBuster!"
 msgstr "Bem vindo ao TaskBuster!"
 
+#: templates/taskbuster/index.html:10
+msgid "Check tasks"
+msgstr "Ver tarefas"
+
 #: templates/taskbuster/index.html:9
 msgid ""
-"TaskBuster is a simple Task manager that helps you organize your daylife. </"
-"br> You can create todo lists, periodic tasks and more! </br></br> If you "
-"want to learn how it was created, or create it yourself!, check www.django-"
-"tutorial.com"
+"TaskBuster is a simple Task manager that helps you organize your daylife. "
+"</br> You can create todo lists, periodic tasks and more! </br></br>"
 msgstr ""
-"TaskBuster é um administrador de tarefas que te ajuda a organizar seu dia-a-dia "
+"TaskBuster é um administrador de tarefas que te ajuda a organizar seu dia-a-dia. "
 "</br> Você pode criar listas de afazeres diários e mais! "
-"</br></br> Contribua em "
-"<a href='https://github.com/caiquepereira/TaskManager' target=_'blank'>TaskbusterManager Github</a>."
+"</br></br> "
