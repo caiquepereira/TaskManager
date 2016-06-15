@@ -6,6 +6,7 @@ from .views import home, home_files
 urlpatterns = [
     url(r'^(?P<filename>(robots.txt)|(humans.txt))$',
         home_files, name='home-files'),
+    url(r'^accounts/', include('allauth.urls')),
 ]
 
 urlpatterns += i18n_patterns(
