@@ -10,16 +10,16 @@
 {% csrf_token %}
 <table>
 <tr>
-    <td>{{ form.username.label_tag }}</td>
+    <td>&emsp;{{ form.username.label_tag }}</td>
     <td>{{ form.username }}</td>
 </tr>
 <tr>
-    <td>{{ form.password.label_tag }}</td>
+    <td>&emsp;{{ form.password.label_tag }}</td>
     <td>{{ form.password }}</td>
 </tr>
 </table>
 
-<input type="submit" value="Login" />
+&emsp;<input type="submit" value="Login" />
 <input type="hidden" name="next" value="{{ next }}" />
 </form>
 
