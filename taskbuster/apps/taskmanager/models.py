@@ -130,6 +130,11 @@ class Task(models.Model):
         help_text=_("Enter the task name")
     )
 
+    percentage = models.CharField(
+        max_length=4,
+        verbose_name=_("percentage"),
+        help_text=_("Enter the percentage name")
+    )
     # Attributes - Optional
     # Object Manager
     objects = managers.TaskManager()

@@ -34,6 +34,19 @@ msgstr "Bem vindo ao TaskBuster!"
 msgid "Check tasks"
 msgstr "Ver tarefas"
 
+#: templates/taskbuster/base.html:50
+msgid "Hello "
+msgstr "Olá "
+
+#: templates/taskbuster/base.html:50
+msgid "Exit"
+msgstr "Sair"
+
+#: templates/taskbuster/base.html:50
+msgid "Advanced Software Development"
+msgstr "Desenvolvimento Avançado de Software"
+
+
 #: templates/taskbuster/index.html:9
 msgid ""
 "TaskBuster is a simple Task manager that helps you organize your daylife. "

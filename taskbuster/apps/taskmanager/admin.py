@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
 from . import models
+from apps.taskmanager.models import Task
 
 
 class ProjectsInLine(admin.TabularInline):
@@ -31,16 +32,4 @@ class ProfileAdmin(admin.ModelAdmin):
         return obj.tags.all().count()
 
 
-# @admin.register(models.Task)
-# class TaskAdmin(admin.ModelAdmin):
-
-#     list_display = ("username", "interaction", "_projects", "_tags")
-
-#     search_fields = ["user__username"]
-
-#     inlines = [
-#         ProjectsInLine
-#     ]
-
-#     def _projects(self, obj):
-#         return obj.projects.all().count()
+admin.site.register(Task)

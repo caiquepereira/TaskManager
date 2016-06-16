@@ -3,8 +3,13 @@
 {% block content %}
 </br></br>
     {% for project in projects %}
-        &emsp;{{ project.name }}
+        <b>&emsp;{{ project.name }}</b>
         </br></br>
+
+        {% for task in project.tasks.all %}
+        &emsp;- {{ task.name }}&emsp;{{ task.percentage }} %
+        </br></br>
+        {% endfor %}
     {% endfor %}
 
 {% endblock content %}
