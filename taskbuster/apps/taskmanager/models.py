@@ -114,3 +114,34 @@ class Tag(models.Model):
 
     def __str__(self):
         return "%s - %s" % (self.user, self.name)
+
+
+class Task(models.Model):
+
+    project = models.ForeignKey(
+        Project,
+        related_name="tasks",
+        verbose_name=_("project")
+    )
+    # Attributes - Mandatory
+    name = models.CharField(
+        max_length=100,
+        verbose_name=_("name"),
+        help_text=_("Enter the task name")
+    )
+
+    # Attributes - Optional
+    # Object Manager
+    objects = managers.TaskManager()
+    # Custom Properties
+    # Methods
+
+    # Meta and String
+    class Meta:
+        verbose_name = _("Task")
+        verbose_name_plural = _("Tasks")
+        ordering = ("project", "name")
+        unique_together = ("project", "name")
+
+    def __str__(self):
+        return "%s - %s" % (self.project, self.name)

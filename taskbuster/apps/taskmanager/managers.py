@@ -12,3 +12,7 @@ class ProjectManager(models.Manager):
 
 class TagManager(models.Manager):
     pass
+
+
+class TaskManager(models.Manager):
+    pass

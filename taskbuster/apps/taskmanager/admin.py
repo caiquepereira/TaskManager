@@ -29,3 +29,18 @@ class ProfileAdmin(admin.ModelAdmin):
 
     def _tags(self, obj):
         return obj.tags.all().count()
+
+
+# @admin.register(models.Task)
+# class TaskAdmin(admin.ModelAdmin):
+
+#     list_display = ("username", "interaction", "_projects", "_tags")
+
+#     search_fields = ["user__username"]
+
+#     inlines = [
+#         ProjectsInLine
+#     ]
+
+#     def _projects(self, obj):
+#         return obj.projects.all().count()
