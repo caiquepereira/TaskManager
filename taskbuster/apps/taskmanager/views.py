@@ -1,7 +1,11 @@
 from django.shortcuts import render
+from .models import Project
 
 
 def post_list(request):
-    # posts = Post.objects.filter(published_date__lte =
-    #                             timezone.now()).order_by('published_date')
-    return render(request, "taskmanager/tasks_list.html", {})
+    projects = Project.objects.all().order_by('name')
+
+    for project in projects:
+        print (project.name)
+    return render(request, "taskmanager/tasks_list.html", {
+        'projects': projects})
