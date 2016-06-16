@@ -12,9 +12,8 @@ urlpatterns = [
     url(r'^accounts/login/$', django.contrib.auth.views.login, name='login'),
     url(r'^accounts/logout/$', django.contrib.auth.views.logout, name='logout',
         kwargs={'next_page': '/'}),
+    url(r'', include('apps.taskmanager.urls')),
 ]
-
-# url(r'', include('apps.taskmanager.urls')),
 
 urlpatterns += i18n_patterns(
     url(r'^$', home, name='home'),
