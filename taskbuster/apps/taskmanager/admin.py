@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
 from . import models
-from apps.taskmanager.models import Task
+from models import Task
 
 
 class ProjectsInLine(admin.TabularInline):
