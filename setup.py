@@ -11,9 +11,10 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=["CMS>=1.0"],
-    entry_points="""
-    [cms.plugin]
-    jpg_image=image_plugin:make_jpeg_image_plugin
-    png_image=image_plugin:make_jpeg_image_plugin
-    """,
+    entry_points={
+        'image.plugin': [
+            'jpg_image = image_plugins:make_jpeg_image_plugin',
+            'png_image = image_plugins:make_png_image_plugin',
+        ],
+    },
 )
