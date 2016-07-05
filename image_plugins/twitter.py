@@ -10,14 +10,17 @@ def get_api(cfg):
 def main():
     # Fill in the values noted in previous step here
     cfg = {
-        "consumer_key": "VALUE",
-        "consumer_secret": "VALUE",
-        "access_token": "VALUE",
-        "access_token_secret": "VALUE"
+        "consumer_key": "CQSfwVC8fWrMJY....",
+        "consumer_secret": "Nnt2MlnIcL4iwRgrrJWys8p5zNMdH....",
+        "access_token": "750323357007155200-m3Gm9ufFxQ...",
+        "access_token_secret": "xYDUYUssr3BYxnhARCID1KH4cR..."
     }
 
     api = get_api(cfg)
-    tweet = "Hello, world!"
+
+    import time
+    datetime = time.strftime("%c")
+    tweet = datetime
     status = api.update_status(status=tweet)
     # Yes, tweet is called 'status' rather confusing
 
