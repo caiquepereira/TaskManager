@@ -12,6 +12,7 @@ install:
   - pip install -r requirements/testing.txt
   - pip install coveralls
   - pip install pyvirtualdisplay
+  - sudo pip install tweepy
 
 before_script:
   - "export DISPLAY=:99.0"
