@@ -13,8 +13,8 @@ setup(
     install_requires=["CMS>=1.0"],
     entry_points={
         'image.plugin': [
-            'jpg_image = image_plugins:make_jpeg_image_plugin',
-            'png_image = image_plugins:make_png_image_plugin',
+            'jpg_image = image_plugins:tweet_closed_task',
+            'png_image = image_plugins:tweet_closed_project',
         ],
     },
 )

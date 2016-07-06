@@ -7,22 +7,15 @@ def get_api(cfg):
     return tweepy.API(auth)
 
 
-def main():
+def post_tweet(tweet_message):
     # Fill in the values noted in previous step here
     cfg = {
-        "consumer_key": "CQSfwVC8fWrMJY....",
-        "consumer_secret": "Nnt2MlnIcL4iwRgrrJWys8p5zNMdH....",
-        "access_token": "750323357007155200-m3Gm9ufFxQ...",
-        "access_token_secret": "xYDUYUssr3BYxnhARCID1KH4cR..."
+        "consumer_key": "CQ...",
+        "consumer_secret":
+            "Nn...",
+        "access_token": "75...",
+        "access_token_secret": "xY..."
     }
 
     api = get_api(cfg)
-
-    import time
-    datetime = time.strftime("%c")
-    tweet = datetime
-    status = api.update_status(status=tweet)
-    # Yes, tweet is called 'status' rather confusing
-
-if __name__ == "__main__":
-    main()
+    status = api.update_status(status=tweet_message)
