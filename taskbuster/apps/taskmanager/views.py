@@ -31,6 +31,21 @@ def add_project(request):
     return render(request, "taskmanager/add_project.html", {'form': form})
 
 
+def add_task(request):
+    if request.method == "POST":
+        form = TaskForm(request.POST)
+        if form.is_valid():
+            task = form.save(commit=False)
+            # task.user = Profile.objects.filter(user=request.user).first()
+            task.save()
+            projects = Project.objects.all().order_by('name')
+            return render(request, "taskmanager/tasks_list.html", {
+                'projects': projects})
+    else:
+        form = TaskForm()
+    return render(request, "taskmanager/add_task.html", {'form': form})
+
+
 @login_required
 def task_detail(request, pk):
     task = get_object_or_404(Task, pk=pk)
