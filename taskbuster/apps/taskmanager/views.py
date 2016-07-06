@@ -7,7 +7,7 @@ named_objects = {}
 
 @login_required
 def project_list(request):
-    load_plugins()
+    load_plugin()
     projects = Project.objects.all().order_by('name')
     return render(request, "taskmanager/tasks_list.html", {
         'projects': projects})
@@ -23,7 +23,7 @@ def close_task(request, pk):
     task.percentage = "100"
     task.save()
     projects = Project.objects.all().order_by('name')
-    named_objects['jpg_image'](task.name)
+    named_objects['tweet_task'](task.name)
     return render(request, "taskmanager/tasks_list.html", {
         'projects': projects})
 
@@ -37,20 +37,12 @@ def close_project(request, pk):
         task.percentage = "100"
         task.save()
     projects = Project.objects.all().order_by('name')
-    named_objects['png_image'](project.name)
+    named_objects['tweet_project'](project.name)
     return render(request, "taskmanager/tasks_list.html", {
         'projects': projects})
 
 
-def load_plugins():
+def load_plugin():
     from pkg_resources import iter_entry_points
-    for entry_point in iter_entry_points(group='image.plugin'):
+    for entry_point in iter_entry_points(group='twitter.plugin'):
         named_objects.update({entry_point.name: entry_point.load()})
-    # named_objects['jpg_image']("teste")
-    # named_objects['png_image']()
-
-
-# def post_twitter_task_closed():
-#
-#
-# def post_twitter_project_closed():

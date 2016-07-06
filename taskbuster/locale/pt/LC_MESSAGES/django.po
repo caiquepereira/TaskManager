@@ -27,8 +27,8 @@ msgid "Portugues"
 msgstr ""
 
 #: templates/taskbuster/index.html:8
-msgid "Welcome to TaskBuster!"
-msgstr "Bem vindo ao TaskBuster!"
+msgid "Welcome to TaskManager!"
+msgstr "Bem vindo ao TaskManager!"
 
 #: templates/taskbuster/index.html:10
 msgid "Check tasks"
@@ -49,9 +49,9 @@ msgstr "Desenvolvimento Avançado de Software"
 
 #: templates/taskbuster/index.html:9
 msgid ""
-"TaskBuster is a simple Task manager that helps you organize your daylife. "
+"TaskManager is a simple Task manager that helps you organize your daylife. "
 "</br> You can create todo lists, periodic tasks and more! </br></br>"
 msgstr ""
-"TaskBuster é um administrador de tarefas que te ajuda a organizar seu dia-a-dia. "
+"TaskManager é um administrador de tarefas que te ajuda a organizar seu dia-a-dia. "
 "</br> Você pode criar listas de afazeres diários e mais! "
 "</br></br> "

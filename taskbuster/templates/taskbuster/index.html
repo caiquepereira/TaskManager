@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 {% load i18n %}
-{% block head_title %}TaskBuster Django Tutorial{% endblock %}
+{% block head_title %}TaskManager{% endblock %}
 
 {% block content %}
     <div class="jumbotron">
     <div class="container">
-        <h1>{% trans "Welcome to TaskBuster!" %}</h1>
-        <p>{% blocktrans %}TaskBuster is a simple Task manager that helps you organize your daylife. </br> You can create todo lists, periodic tasks and more! </br></br>{% endblocktrans %}</p>
+        <h1>{% trans "Welcome to TaskManager!" %}</h1>
+        <p>{% blocktrans %}TaskManager is a simple Task manager that helps you organize your daylife. </br> You can create todo lists, periodic tasks and more! </br></br>{% endblocktrans %}</p>
         <p><a class="btn btn-primary btn-lg" href="{% url 'apps.taskmanager.views.project_list' %}" role="button">{% trans "Check tasks" %} &raquo;</a></p>
       </div>
     </div>
