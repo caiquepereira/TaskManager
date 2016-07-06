@@ -12,6 +12,7 @@ install:
   - pip install -r requirements/testing.txt
   - pip install coveralls
   - pip install pyvirtualdisplay
+  - sudo pip install tweepy
 
 before_script:
   - "export DISPLAY=:99.0"
@@ -20,6 +21,13 @@ before_script:
   - mysql -e 'CREATE DATABASE IF NOT EXISTS taskbuster_db;'
 
 script:
+  - git clone https://github.com/cms-dev/cms.git
+  - cd cms
+  - sudo python setup.py build
+  - sudo python setup.py install
+  - cd ..
+  - sudo python setup.py develop
+  - sudo python setup.py install
   - cd taskbuster/
   - python manage.py makemigrations
   - python manage.py migrate
