@@ -4,16 +4,18 @@
 </br></br>
     {% for project in projects %}
         <b>&emsp;{{ project.name }}</b>
-        </br></br>
+        &emsp;
+        <a href="{% url 'close_project' pk=project.pk %}">Finalizar Projeto</a>
 
         {% for task in project.tasks.all %}
-        &emsp;
-        {{ task.name }}
-        &emsp;
-        {{ task.percentage }} %
-        &emsp;
-        <a href="{% url 'close_task' pk=task.pk %}">Finalizar Tarefa</a>
-        </br></br>
+          </br></br>
+          &emsp;
+          {{ task.name }}
+          &emsp;
+          {{ task.percentage }} %
+          &emsp;
+          <a href="{% url 'close_task' pk=task.pk %}">Finalizar Tarefa</a>
+          </br></br>
         {% endfor %}
     {% endfor %}
 

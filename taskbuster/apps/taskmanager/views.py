@@ -4,7 +4,7 @@ from django.contrib.auth.decorators import login_required
 
 
 @login_required
-def post_list(request):
+def project_list(request):
 
     from pkg_resources import iter_entry_points
     named_objects = {}
@@ -28,6 +28,15 @@ def close_task(request, pk):
     task = get_object_or_404(Task, pk=pk)
     task.percentage = "100"
     task.save()
+    projects = Project.objects.all().order_by('name')
+    return render(request, "taskmanager/tasks_list.html", {
+        'projects': projects})
+
+
+def close_project(request, pk):
+    project = get_object_or_404(Project, pk=pk)
+    # task.percentage = "100"
+    # task.save()
     projects = Project.objects.all().order_by('name')
     return render(request, "taskmanager/tasks_list.html", {
         'projects': projects})
