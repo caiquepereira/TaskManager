@@ -48,7 +48,7 @@
                   <form class="navbar-form navbar-right" role="form">
 
                     {% if user.is_authenticated %}
-                    <p class="top-menu"><font color="white">{% trans "Hello " %} {{ user.username }}<big>(<a href="{% url 'logout' %}">{% trans "Exit" %}</a>)</big></font></p>
+                    <p class="top-menu"><font color="white">{% trans "Hello " %} {{ user.username }}, {{ user.profile.twitter_account }} <big>(<a href="{% url 'logout' %}">{% trans "EXIT" %}</a>)</big></font></p>
                     {% else %}
                     <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
                     {% endif %}

@@ -39,8 +39,8 @@ msgid "Hello "
 msgstr "Olá "
 
 #: templates/taskbuster/base.html:50
-msgid "Exit"
-msgstr "Sair"
+msgid "EXIT"
+msgstr "SAIR"
 
 #: templates/taskbuster/base.html:50
 msgid "Advanced Software Development"

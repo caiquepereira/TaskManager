@@ -15,9 +15,9 @@
           <font color="green"><b>&emsp;{{ project.name }}</b></font>
         {% else %}
           <font color="#cccc00"><b>&emsp;{{ project.name }}</b></font>
-        {% endif %}
         &emsp;
         <a href="{% url 'close_project' pk=project.pk %}">Finalizar Projeto</a>
+        {% endif %}
         </br></br>
         {% for task in project.tasks.all %}
           &emsp;
@@ -28,8 +28,10 @@
           {% endif %}
           &emsp;
           {{ task.percentage }} %
+          {% if task.percentage < 100 %}
           &emsp;
           <a href="{% url 'close_task' pk=task.pk %}">Finalizar Tarefa</a>
+          {% endif %}
           </br></br>
         {% endfor %}
     {% endfor %}
