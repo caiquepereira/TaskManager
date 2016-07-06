@@ -10,6 +10,6 @@ urlpatterns = [
         name='task_detail'),
     url(r'^close_task/(?P<pk>[0-9]+)/$', views.close_task,
         name='close_task'),
-    url(r'^close_project/(?P<pk>[0-9]+)/$', views.close_task,
+    url(r'^close_project/(?P<pk>[0-9]+)/$', views.close_project,
         name='close_project'),
 ]

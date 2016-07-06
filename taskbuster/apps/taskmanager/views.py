@@ -35,7 +35,10 @@ def close_task(request, pk):
 
 def close_project(request, pk):
     project = get_object_or_404(Project, pk=pk)
-    for task in project.tasks.all:
+    tasks = Task.objects.filter(project=project)
+    print project
+    print tasks
+    for task in tasks:
         task.percentage = "100"
         task.save()
     projects = Project.objects.all().order_by('name')

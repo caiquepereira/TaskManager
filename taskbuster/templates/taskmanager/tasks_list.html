@@ -6,9 +6,8 @@
         <b>&emsp;{{ project.name }}</b>
         &emsp;
         <a href="{% url 'close_project' pk=project.pk %}">Finalizar Projeto</a>
-
+        </br></br>
         {% for task in project.tasks.all %}
-          </br></br>
           &emsp;
           {{ task.name }}
           &emsp;
