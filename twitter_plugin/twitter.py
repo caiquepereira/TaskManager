@@ -10,11 +10,11 @@ def get_api(cfg):
 def post_tweet(tweet_message):
     # Fill in the values noted in previous step here
     cfg = {
-        "consumer_key": "CQ...",
+        "consumer_key": "...",
         "consumer_secret":
-            "Nn...",
-        "access_token": "75...",
-        "access_token_secret": "xY..."
+            "...",
+        "access_token": "...",
+        "access_token_secret": "..."
     }
 
     api = get_api(cfg)

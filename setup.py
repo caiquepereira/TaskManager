@@ -4,17 +4,17 @@ use_setuptools()
 
 
 setup(
-    name='ImagePlugins',
+    name='TwitterPlugin',
     version="1.0",
-    description="Image plugins for the imaginary CMS 1.0 project",
-    author="James Gardner",
+    description="Twitter Plugin for the TaskManager project",
+    author="Caique Pereira",
     packages=find_packages(),
     include_package_data=True,
     install_requires=["CMS>=1.0"],
     entry_points={
-        'image.plugin': [
-            'jpg_image = image_plugins:tweet_closed_task',
-            'png_image = image_plugins:tweet_closed_project',
+        'twitter.plugin': [
+            'tweet_task = twitter_plugin:tweet_closed_task',
+            'tweet_project = twitter_plugin:tweet_closed_project',
         ],
     },
 )
