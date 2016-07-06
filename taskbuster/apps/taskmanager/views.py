@@ -1,6 +1,9 @@
 from django.shortcuts import render, get_object_or_404
-from .models import Project, Task
+from .models import Project, Task, Profile
 from django.contrib.auth.decorators import login_required
+
+from .forms import ProjectForm, TaskForm
+
 
 named_objects = {}
 
@@ -13,11 +16,19 @@ def project_list(request):
         'projects': projects})
 
 
-def add_project_task(request):
-
-    projects = Project.objects.all().order_by('name')
-    return render(request, "taskmanager/tasks_list.html", {
-        'projects': projects})
+def add_project(request):
+    if request.method == "POST":
+        form = ProjectForm(request.POST)
+        if form.is_valid():
+            project = form.save(commit=False)
+            project.user = Profile.objects.filter(user=request.user).first()
+            project.save()
+            projects = Project.objects.all().order_by('name')
+            return render(request, "taskmanager/tasks_list.html", {
+                'projects': projects})
+    else:
+        form = ProjectForm()
+    return render(request, "taskmanager/add_project.html", {'form': form})
 
 
 @login_required
