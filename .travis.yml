@@ -21,6 +21,12 @@ before_script:
   - mysql -e 'CREATE DATABASE IF NOT EXISTS taskbuster_db;'
 
 script:
+  - mkdir cms
+  - cd cms
+  - git clone https://github.com/cms-dev/cms.git
+  - sudo python setup.py build
+  - sudo python setup.py install
+  - cd ..
   - sudo python setup.py develop
   - sudo python setup.py install
   - cd taskbuster/
