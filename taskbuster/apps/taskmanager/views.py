@@ -22,3 +22,12 @@ def post_list(request):
 def task_detail(request, pk):
     task = get_object_or_404(Task, pk=pk)
     return render(request, 'taskmanager/tasks_list.html', {'task': task})
+
+
+def close_task(request, pk):
+    task = get_object_or_404(Task, pk=pk)
+    task.percentage = "100"
+    task.save()
+    projects = Project.objects.all().order_by('name')
+    return render(request, "taskmanager/tasks_list.html", {
+        'projects': projects})

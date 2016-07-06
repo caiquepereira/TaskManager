@@ -10,7 +10,9 @@
         &emsp;
         {{ task.name }}
         &emsp;
-        <a href="{% url 'task_detail' pk=task.pk %}">{{ task.percentage }} %</a>
+        {{ task.percentage }} %
+        &emsp;
+        <a href="{% url 'close_task' pk=task.pk %}">Finalizar Tarefa</a>
         </br></br>
         {% endfor %}
     {% endfor %}
