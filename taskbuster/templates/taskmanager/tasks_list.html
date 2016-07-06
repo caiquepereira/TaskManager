@@ -2,11 +2,15 @@
 
 {% block content %}
 </br></br>
+<div class="text-center">
+  <a href="{% url 'add_project_task' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+</div>
+</br></br>
     {% for project in projects %}
         {% if project.closed %}
-        <font color="green"><b>&emsp;{{ project.name }}</b></font>
+          <font color="green"><b>&emsp;{{ project.name }}</b></font>
         {% else %}
-        <font color="#cccc00"><b>&emsp;{{ project.name }}</b></font>
+          <font color="#cccc00"><b>&emsp;{{ project.name }}</b></font>
         {% endif %}
         &emsp;
         <a href="{% url 'close_project' pk=project.pk %}">Finalizar Projeto</a>

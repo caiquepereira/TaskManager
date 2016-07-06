@@ -10,29 +10,30 @@ from django.core.validators import RegexValidator
 
 
 class Profile(models.Model):
-    # Relations
     user = models.OneToOneField(
         settings.AUTH_USER_MODEL,
         related_name="profile",
         verbose_name=_("user")
     )
-    # Attributes - Mandatory
+
     interaction = models.PositiveIntegerField(
         default=0,
         verbose_name=_("interaction")
     )
-    # Attributes - Optional
-    # Object Manager
+
+    twitter_account = models.CharField(
+        max_length=100,
+        default="",
+        verbose_name=_("twitter_account"),
+        help_text=_("Enter your twitter account")
+    )
+
     objects = managers.ProfileManager()
 
-    # Custom Properties
     @property
     def username(self):
         return self.user.username
 
-    # Methods
-
-    # Meta and String
     class Meta:
         verbose_name = _("Profile")
         verbose_name_plural = _("Profiles")
@@ -50,13 +51,12 @@ def create_profile_for_new_user(sender, created, instance, **kwargs):
 
 
 class Project(models.Model):
-    # Relations
     user = models.ForeignKey(
         Profile,
         related_name="projects",
         verbose_name=_("user")
     )
-    # Attributes - Mandatory
+
     name = models.CharField(
         max_length=100,
         verbose_name=_("name"),
@@ -86,24 +86,19 @@ class Project(models.Model):
 
 
 class Tag(models.Model):
-    # Relations
     user = models.ForeignKey(
         Profile,
         related_name="tags",
         verbose_name=_("user")
     )
-    # Attributes - Mandatory
+
     name = models.CharField(
         max_length=100,
         verbose_name=_("Name")
     )
-    # Attributes - Optional
-    # Object Manager
-    objects = managers.TagManager()
-    # Custom Properties
-    # Methods
 
-    # Meta and String
+    objects = managers.TagManager()
+
     class Meta:
         verbose_name = _("Tag")
         verbose_name_plural = _("Tags")
@@ -121,7 +116,7 @@ class Task(models.Model):
         related_name="tasks",
         verbose_name=_("project")
     )
-    # Attributes - Mandatory
+
     name = models.CharField(
         max_length=100,
         verbose_name=_("name"),
@@ -129,13 +124,9 @@ class Task(models.Model):
     )
 
     percentage = models.IntegerField(default=0)
-    # Attributes - Optional
-    # Object Manager
-    objects = managers.TaskManager()
-    # Custom Properties
-    # Methods
 
-    # Meta and String
+    objects = managers.TaskManager()
+
     class Meta:
         verbose_name = _("Task")
         verbose_name_plural = _("Tasks")

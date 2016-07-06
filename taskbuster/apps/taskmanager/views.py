@@ -13,11 +13,20 @@ def project_list(request):
         'projects': projects})
 
 
+def add_project_task(request):
+
+    projects = Project.objects.all().order_by('name')
+    return render(request, "taskmanager/tasks_list.html", {
+        'projects': projects})
+
+
+@login_required
 def task_detail(request, pk):
     task = get_object_or_404(Task, pk=pk)
     return render(request, 'taskmanager/tasks_list.html', {'task': task})
 
 
+@login_required
 def close_task(request, pk):
     task = get_object_or_404(Task, pk=pk)
     task.percentage = "100"
@@ -28,6 +37,7 @@ def close_task(request, pk):
         'projects': projects})
 
 
+@login_required
 def close_project(request, pk):
     project = get_object_or_404(Project, pk=pk)
     project.closed = True
