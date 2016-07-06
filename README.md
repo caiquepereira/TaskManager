@@ -12,6 +12,28 @@ Advanced Software Development (Desenvolvimento Avançado de Software)
 
 Student: Caíque de Paula Pereira
 
+
+# Installing twitter plugin
+
+Install CMS
+```bash
+$ git clone https://github.com/cms-dev/cms.git
+$ cd cms
+$ sudo python setup.py build
+$ sudo python setup.py install
+```
+
+Install tweepy
+```bash
+$ sudo pip install tweepy
+```
+
+Install plugin on taskbuster_project directory run
+```bash
+$ sudo python setup.py develop
+$ sudo python setup.py install
+```
+
 # Running the development server
 
 ```bash
