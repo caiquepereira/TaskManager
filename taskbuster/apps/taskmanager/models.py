@@ -70,13 +70,11 @@ class Project(models.Model):
         verbose_name=_("color"),
         help_text=_("Enter the hex color code, like #ccc or #cccccc")
     )
-    # Attributes - Optional
-    # Object Manager
-    objects = managers.ProjectManager()
-    # Custom Properties
-    # Methods
 
-    # Meta and String
+    closed = models.BooleanField(default=False)
+
+    objects = managers.ProjectManager()
+
     class Meta:
         verbose_name = _("Project")
         verbose_name_plural = _("Projects")
@@ -130,11 +128,7 @@ class Task(models.Model):
         help_text=_("Enter the task name")
     )
 
-    percentage = models.CharField(
-        max_length=4,
-        verbose_name=_("percentage"),
-        help_text=_("Enter the percentage name")
-    )
+    percentage = models.IntegerField(default=0)
     # Attributes - Optional
     # Object Manager
     objects = managers.TaskManager()

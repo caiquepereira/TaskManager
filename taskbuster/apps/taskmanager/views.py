@@ -35,8 +35,9 @@ def close_task(request, pk):
 
 def close_project(request, pk):
     project = get_object_or_404(Project, pk=pk)
-    # task.percentage = "100"
-    # task.save()
+    for task in project.tasks.all:
+        task.percentage = "100"
+        task.save()
     projects = Project.objects.all().order_by('name')
     return render(request, "taskmanager/tasks_list.html", {
         'projects': projects})
